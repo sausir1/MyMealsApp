@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyMeals</string>
+    <string name="app_Home">Home Page</string>
+    <string name="title_home">Pagrindinis</string>
+    <string name="title_dashboard">Patiekalai</string>
+    <string name="title_notifications">Profilis</string>
+    <string name="splash_text">MyMealsApp</string>
+    <string name="current_version">version 0.1</string>
+    <string name="add_meal">Add Meal</string>
+    <string name="carbs_text">Angliavandeniai</string>
+    <string name="fats_text">Riebalai</string>
+    <string name="proteins_text">Baltymai</string>
+    <string name="calories_text">Kalorijos</string>
+    <string name="name_of">Pavadinimas</string>
+    <string name="save_text">Išsaugoti</string>
+    <string name="back_text">Grįžti</string>
+    <string name="add_how">Pasirinkite pridėjimo būdą</string>
+    <string name="gallery_text">Galerija</string>
+    <string name="camera_text">Fotoaparatas</string>
+    <string name="no_meals_added">Kol kas nepridėjote jokių savo patieklų</string>
+    <string name="register">Registruotis</string>
+    <string name="user_name">Jūsų vardas</string>
+    <string name="user_age">Jūsų amžius</string>
+    <string name="user_weight">Jūsų svoris</string>
+    <string name="user_height">Jūsų ūgis</string>
+    <string name="user_activity">Jūsų aktyvumo lygis</string>
+    <string name="user_kmi">Jūsų apskaičiuotas KMI</string>
+    <string name="user_gender">Jūsų lytis</string>
+    <string name="register_text">Naujo vartotojo registracija</string>
+    <string name="edit_info">Keisti informaciją</string>
+    <string name="to_consume_text">Per dieną jums reikia suvartoti</string>
+</resources>

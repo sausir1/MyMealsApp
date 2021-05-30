@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.activities.RegisterUserActivity">
+
+    <Button
+        android:id="@+id/save_user_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="624dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.728" />
+
+    <EditText
+        android:autofillHints="@string/user_name"
+        android:id="@+id/user_name_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/user_weight_in"
+        app:layout_constraintEnd_toEndOf="@+id/user_weight_in"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/user_weight_in"
+        app:layout_constraintTop_toBottomOf="@+id/reg_tv" />
+
+    <EditText
+        android:id="@+id/user_weight_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_weight"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/user_height_in"
+        app:layout_constraintEnd_toEndOf="@+id/user_height_in"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/user_height_in"
+        app:layout_constraintTop_toBottomOf="@+id/user_name_in" />
+
+    <EditText
+        android:id="@+id/user_gender_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_gender"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/user_activity_in"
+        app:layout_constraintEnd_toEndOf="@+id/user_activity_in"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/user_activity_in"
+        app:layout_constraintTop_toBottomOf="@+id/user_age" />
+
+    <EditText
+        android:id="@+id/user_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_age"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/user_gender_in"
+        app:layout_constraintEnd_toEndOf="@+id/user_gender_in"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/user_gender_in"
+        app:layout_constraintTop_toBottomOf="@+id/user_height_in" />
+
+    <EditText
+        android:id="@+id/user_activity_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_activity"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/save_user_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_gender_in" />
+
+    <EditText
+        android:id="@+id/user_height_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_height "
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/user_age"
+        app:layout_constraintEnd_toEndOf="@+id/user_age"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/user_age"
+        app:layout_constraintTop_toBottomOf="@+id/user_weight_in" />
+
+    <TextView
+        android:id="@+id/reg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_text"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/user_name_in"
+        app:layout_constraintEnd_toEndOf="@+id/user_name_in"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/user_name_in"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
